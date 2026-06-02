@@ -31,6 +31,9 @@ export default function App() {
           <div className="flex items-start">
             <img src="/logo.png" alt="Mojaa" className="h-10 md:h-12 object-contain" />
           </div>
+          <p className="mt-2 text-[10px] md:text-xs tracking-[0.4em] uppercase text-red-500">
+            through a environment-centered process
+          </p>
         </div>
       </header>
 
