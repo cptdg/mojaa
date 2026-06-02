@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-title: "fifita", "Comfortaa", ui-sans-serif, system-ui, sans-serif;
+  --font-header: "Magisiic", "Magisiic Regular", "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-tangerine: #f79321;
+  --color-brand-olive: #64703e;
+  --color-brand-dark: #000000;
+  --color-brand-light: #ffffff;
+}
+
+body {
+  @apply font-sans antialiased text-brand-dark bg-brand-light overflow-hidden;
+}

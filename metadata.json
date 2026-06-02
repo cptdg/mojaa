@@ -1,0 +1,6 @@
+{
+  "name": "Mojaa",
+  "description": "Premium Sports & Lifestyle Hub for Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
