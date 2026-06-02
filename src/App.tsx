@@ -3,13 +3,18 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { countries } from './data';
 import { ArrowRight } from 'lucide-react';
+import { trackLinkClick, trackPageView } from './lib/analytics';
 
 export default function App() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+  useEffect(() => {
+    trackPageView();
+  }, []);
 
   // Brandbook specifies using hard edges WITH round edges.
   const shapeClasses = [
@@ -44,6 +49,7 @@ export default function App() {
               }`}
               onMouseEnter={() => setHoveredIndex(idx)}
               onMouseLeave={() => setHoveredIndex(null)}
+              onClick={() => trackLinkClick({ label: country.name, destination: country.url })}
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 + idx * 0.1 }}
