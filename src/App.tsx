@@ -96,8 +96,8 @@ export default function App() {
       <footer className="z-50 flex justify-between items-center text-[10px] md:text-xs font-bold tracking-widest text-black/40 uppercase">
         <span>© {new Date().getFullYear()} Mojaa</span>
         <div className="flex gap-4 md:gap-8">
-          <a href="#" className="hover:text-brand-tangerine transition-colors">Privacy</a>
-          <a href="#" className="hover:text-brand-tangerine transition-colors">Terms</a>
+          <a href="/privacy.html" className="hover:text-brand-tangerine transition-colors" rel="noopener">Privacy</a>
+          <a href="/terms.html" className="hover:text-brand-tangerine transition-colors" rel="noopener">Terms</a>
         </div>
       </footer>
     </div>
