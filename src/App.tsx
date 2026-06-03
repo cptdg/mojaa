@@ -97,7 +97,6 @@ export default function App() {
         <span>© {new Date().getFullYear()} Mojaa</span>
         <div className="flex gap-4 md:gap-8">
           <a href="/privacy.html" className="hover:text-brand-tangerine transition-colors" rel="noopener">Privacy</a>
-          <a href="/terms.html" className="hover:text-brand-tangerine transition-colors" rel="noopener">Terms</a>
         </div>
       </footer>
     </div>
