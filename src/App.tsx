@@ -31,20 +31,9 @@ export default function App() {
           <div className="flex justify-center">
             <img src="/logo.png" alt="Mojaa" className="h-10 md:h-12 object-contain" />
           </div>
-          <h1 className="mt-6 text-lg md:text-2xl font-header font-black uppercase tracking-tight max-w-xl">
-            Choose your Mojaa storefront
+          <h1 className="mt-6 text-base md:text-xl font-header font-semibold uppercase tracking-[0.2em] max-w-xl">
+            Choose your store
           </h1>
-          <p className="mt-1 text-sm md:text-base text-black/70 max-w-xl">
-            Morocco 
-            
-            • 
-            
-            Nigeria 
-            
-            • 
-            
-            Egypt
-          </p>
         </div>
       </header>
 
