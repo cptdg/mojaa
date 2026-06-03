@@ -34,6 +34,12 @@ export default function App() {
           <p className="mt-2 text-[10px] md:text-xs tracking-[0.4em] uppercase text-red-500">
             through a environment-centered process
           </p>
+          <h1 className="mt-4 text-lg md:text-2xl font-header font-black uppercase tracking-tight max-w-xl">
+            Choose your Mojaa storefront
+          </h1>
+          <p className="text-sm md:text-base text-black/70 max-w-xl">
+            This portal helps you jump to our live ecommerce sites in Morocco, Nigeria, and Egypt where all shopping and checkout experiences happen.
+          </p>
         </div>
       </header>
 
