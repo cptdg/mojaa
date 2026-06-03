@@ -26,23 +26,22 @@ export default function App() {
   return (
     <div className="h-screen w-screen bg-brand-light text-brand-dark flex flex-col p-4 md:p-8 relative selection:bg-brand-tangerine selection:text-white">
       {/* Brand Header */}
-      <header className="flex items-start justify-center md:justify-between z-50">
-        <div className="flex flex-col">
-          <div className="flex items-start">
+      <header className="flex justify-center z-50">
+        <div className="flex flex-col items-center text-center">
+          <div className="flex justify-center">
             <img src="/logo.png" alt="Mojaa" className="h-10 md:h-12 object-contain" />
           </div>
-          <p className="mt-2 text-[10px] md:text-xs tracking-[0.4em] uppercase text-red-500">
-            through a environment-centered process
-          </p>
-          <h1 className="mt-4 text-lg md:text-2xl font-header font-black uppercase tracking-tight max-w-xl">
+          <h1 className="mt-6 text-lg md:text-2xl font-header font-black uppercase tracking-tight max-w-xl">
             Choose your Mojaa storefront
           </h1>
-          <p className="text-sm md:text-base text-black/70 max-w-xl">
+          <p className="mt-1 text-sm md:text-base text-black/70 max-w-xl">
             Morocco 
             
+            • 
             
             Nigeria 
             
+            • 
             
             Egypt
           </p>
