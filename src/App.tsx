@@ -38,7 +38,13 @@ export default function App() {
             Choose your Mojaa storefront
           </h1>
           <p className="text-sm md:text-base text-black/70 max-w-xl">
-            This portal helps you jump to our live ecommerce sites in Morocco, Nigeria, and Egypt where all shopping and checkout experiences happen.
+            Morocco 
+            
+            
+            Nigeria 
+            
+            
+            Egypt
           </p>
         </div>
       </header>
