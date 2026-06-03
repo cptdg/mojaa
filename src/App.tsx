@@ -31,8 +31,8 @@ export default function App() {
           <div className="flex justify-center">
             <img src="/logo.png" alt="Mojaa" className="h-10 md:h-12 object-contain" />
           </div>
-          <h1 className="mt-6 text-base md:text-xl font-header font-semibold uppercase tracking-[0.2em] max-w-xl">
-            Choose your store
+          <h1 className="mt-4 text-sm md:text-lg font-title font-normal tracking-[0.16em] lowercase max-w-xl">
+            choose your store
           </h1>
         </div>
       </header>
