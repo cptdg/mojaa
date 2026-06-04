@@ -12,5 +12,5 @@
 }
 
 body {
-  @apply font-sans antialiased text-brand-dark bg-brand-light overflow-hidden;
+  @apply font-sans antialiased text-brand-dark bg-brand-light overflow-x-hidden;
 }
